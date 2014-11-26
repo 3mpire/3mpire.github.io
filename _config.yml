@@ -1,0 +1,12 @@
+title:        '*blog'
+tagline:      '*blog | Charles Wesley'
+description:  'Interesting bits of technology.'
+url:          http://3mpire.github.io
+version:      1.1.1
+author:
+  name:       'Charles Wesley'
+  email:      'charleswesley@gmail.com'
+markdown:     rdiscount
+permalink:    pretty
+highlighter:     true
+paginate:     5
