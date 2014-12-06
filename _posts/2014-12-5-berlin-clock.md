@@ -50,7 +50,7 @@ To identify each individual lamp, I decided to apply a naming convention that pr
 </div>
 {% endhighlight %}
 
-Then, to tell the time, I wrote a function in JavaScript that calculated how many sets of five hour blocks had occurred. Below is an example of the idea I used for each of the sets. I simply take the number of hours for the current time, divide by give, and round down to the lowest whole number. Then, if it is more than zero, I just use a for loop to turn on the correct number of lamps:
+Then, to tell the time, I wrote a function in JavaScript that calculated how many sets of five hour blocks had occurred. Below is an example of the idea I used for each of the sets. I simply take the number of hours for the current time, divide by five, and round down to the lowest whole number. Then, if it is more than zero, I just use a for loop to turn on the correct number of lamps:
 
 {% highlight javascript %}
 var clockDate = new Date(),
